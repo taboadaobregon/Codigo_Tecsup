@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(210, 210 , 190);
+}
+
+#contenedor{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(90deg,red 33%, white 33%, white 66.66%, red 66.66%);
+    margin: auto;
+}
+
+#contenedor:hover{
+    background:linear-gradient(to top,red 33%, white 33%, white 66.66%, red 66.66%);
+   
+}
+
+#contenedor:visited{
+    background:linear-gradient(to left,red 33%, white 33%, white 66.66%, red 66.66%);
+   
+}
+
+.sombra{
+    /* *1 Parameter eje x (default derecha)
+    * 2 Parameter eje y (default derecha)
+    * 3 Parameter blur(difuminacion)
+    * 4 Parameter spread (propagacion)
+    * 5 Parameter color
+    */
+    box-shadow: 20px 20px 0px;
+}
+
+.sombra_texto{
+    text-shadow: 10px 10px 5px yellow;
+}
+
+#circulo{
+    width: 200px;
+    height: 200px;
+    background : radial-gradient(red,white,red);
+    margin: 60px auto;
+    border-radius: 100px;
+    filter: blur(10px);
+    
+}

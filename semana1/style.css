@@ -1,7 +1,18 @@
+@font-face {
+    font-family: "lobster";
+    src: url("../semana1/fonts/Lobster-Regular.ttf");
+}
+
 h1 {
+    font-family: lobster;
     position: relative;
     text-align: center;
-    color: aqua!important;
+    color: black!important;
+    text-decoration: underline;
+}
+
+.raya {
+    font-weight: bold;
 }
 
 .caja {
@@ -16,11 +27,13 @@ table {
 
 thead {
     background-color: aqua;
+    font-family: lobster;
 }
 
 tbody {
     color: white;
-    background-color: black;
+    background-color: coral;
+    font-family: lobster;
 }
 
 tr:hover {

@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana;
+
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index:1;
+}
+
+nav{
+    background-color: black;
+    margin-top: -37px;
+}
+
+ul li{
+    display: inline;
+    
+}
+
+ul{
+    padding: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.div-imagen{
+    position: relative;
+    top:100px;
+}
+
+#inicio{
+    height: 100vh;
+    background-color: aqua;
+}

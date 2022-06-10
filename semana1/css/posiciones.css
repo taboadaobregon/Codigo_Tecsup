@@ -1,0 +1,37 @@
+body{
+    font-family: verdana;
+}
+
+.bg{
+    border: solid;
+    height: 300px;
+}
+
+.color-red{
+    background-color: red;
+}
+
+.color-green{
+    background-color: green;
+}
+
+.bg-image{
+    background: url("../img/images.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-image-cat{
+   background: url("../img/images.jpeg");
+   
+   /* !estamos diciendo que este div tengo un alto de 500 */
+
+   height: 500px;
+   background-size: cover;
+
+   /* !esto indica que quermos mostrar la parte central
+   !de la imagen
+   */
+
+   background-position: center;
+}

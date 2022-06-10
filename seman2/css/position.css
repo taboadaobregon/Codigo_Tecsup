@@ -1,0 +1,86 @@
+.bg-box{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+
+    /* para mover este eleemnto por todo el navegador */
+
+    position: relative;
+
+    /* al agregar un position a un element este nos da
+    la opcion de usar los sisguientes 
+    top 
+    left
+    rigth
+    bootom */
+
+    left: 40px;
+}
+
+/* Esta laopcion de combinar  absolute con relative */
+
+/* absolute necesita de un padre que defina su entorno es decir su ancho
+y alto 
+*/
+/* por ende va a funcionar por se el padre absolute */
+
+
+.padre{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+/* el hijo al no tener un relativo va a tomar al body como padre no importa
+si esta dentro de un div al activar el position:absolute */
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+
+    top: calc(50% - 50px);
+    left:calc(50% - 50px);
+
+}
+
+/* la clase bander que es el contenedor ocupe toda la pantalla */
+
+.Bandera{
+    height: 100vh;
+    border: solid;
+    position: relative;
+}
+
+.green{
+    background-color: green;
+    height: 100vh;
+    width: 40%;
+    float: left;
+}
+
+.red{
+    height: 100vh;
+    background-color: red;
+    width: 60%;
+    float: right;
+    
+}
+
+.escudo{
+    background: url("../img/portugal.svg.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top:calc(50% - 100px);
+    left: calc(40% - 100px);    
+}
+
+
+
+
+
+

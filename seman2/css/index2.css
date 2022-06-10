@@ -1,0 +1,91 @@
+body {
+    background-color: #0B172D;
+}
+
+.padre {
+    padding: 0 1rem;
+    margin: 1rem;
+}
+
+.hijo {
+    background-color: #112340;
+    /* IMPORTANTE */
+    width: 433px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.div-image {
+    margin-left: 17px;
+}
+
+.image1 {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.titulo {
+    color: white;
+    font-size: 23px;
+    margin-left: 16px
+}
+
+.descripcion {
+    color: #3E5374;
+    font-size: 18px;
+    margin-left: 16px
+}
+
+.image-etherum {
+    width: 15px;
+    height: 25px;
+}
+
+.parrafonum {
+    margin-top: -23px;
+    margin-left: 22px;
+    color: #00B3B4;
+}
+
+.image-clock {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: -34px;
+}
+
+.parrafoclock {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: -34px;
+    color: #3E5374;
+}
+
+.linea {
+    margin-top: 39px;
+    width: 90%;
+    color: red!important;
+}
+
+.div-avatar {
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.image-avatar {}
+
+.parrafoavatar {
+    position: absolute;
+    margin-left: 2.8%;
+    margin-top: -29px;
+    color: #3E5374;
+    margin-right: 2px;
+}
+
+.spanavatar {
+    color: white;
+    margin-left: 5px;
+}
