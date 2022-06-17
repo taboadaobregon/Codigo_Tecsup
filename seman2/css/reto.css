@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit" sans-serif;
+
+}
+
+.contenedor{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    position: relative;
+}
+
+.contenedor1{
+    background-color: white;
+    width: 375px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 16px;
+    /* position: absolute;
+    top: 20%;
+    left: calc(50% - 187.5px); */
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* !aca estamos aplicando a cada elemento que esta dentro de ese div */
+.contenedor1 * {
+    margin-top: 10px;
+}
+
+
+img{
+    width: 345px;
+    border-radius: 16px;
+}

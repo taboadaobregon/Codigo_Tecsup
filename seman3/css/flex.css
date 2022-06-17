@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    /* al activar flex estamos activando sus }
+    propiedades */
+
+    /* alinea los elementos de forma horizontal */
+    /* tiene 3 posibles valores 
+    flex-start_: alinea sus elementos a lado izquierdo
+    center; alimnea al centro
+    flex-end: alinea a lado derecho
+
+    estos 3 separan los elemntos de forma horizontal con la diferencia que el margen
+    que tiene que tiene cada uno es mayor
+    nota: este va a depender de cuando espacio tenf¿ga libre y si no hay espacio el margen sera 0
+    space-between : alinea los elementos de extremo a extremo
+     space-between
+     space-evenly
+     space-around
+    */
+   
+    justify-content:space-between ;
+
+
+    /* la propiedad que se encarga de alinear elementos de forma vertical
+    en flex alig-items 
+      note: se basa em la altura, si un elemento no tiene  no va a poder centrarlo  
+    */
+
+    align-items: center;
+
+
+    /* flex-direction permite controlar la direccion de los elementos 
+    column : ha transforamdo la direccion de los elementos
+    nota : por defecto la propiedad de  los hijos es row*/
+    
+    flex-direction: column;
+}
+
+.container div{
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+}
+
+
+
+.container-2{
+    display: flex;
+    height: 100vh;
+    border: solid green 3px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+
+.container-2 div{
+    width: 20%;
+    height: 300px;
+    border: solid orange 3px;
+}
